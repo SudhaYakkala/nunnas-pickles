@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NUNNA'S PICKLES | Authentic Homemade Pickles</title>
+<meta name="description" content="Authentic homemade Indian pickles from NUNNA'S PICKLES. Explore Avakaya, Lemon Pickle, Red Chilli Pickle, Tomato Pickle and Prawns Pickle. Order directly on WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NUNNA'S PICKLES | Authentic Homemade Pickles">
+<meta property="og:description" content="Authentic homemade Indian pickles. Order Avakaya, Lemon, Red Chilli, Tomato and Prawns Pickle directly on WhatsApp.">
+<!-- After you have a domain, change this to the full URL: https://www.nunnaspickles.in/images/avakaya.jpg -->
+<meta property="og:image" content="images/avakaya.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%237a1420'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23e0b25c' font-family='Georgia'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#home" class="brand">NUNNA'S PICKLES</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#pickles">Pickles</a>
+    <a href="#story">Our Story</a>
+    <a href="#how">How to Order</a>
+    <a href="#contact">Contact</a>
+    <a href="#order" class="order-link">Order (<span id="cartCount">0</span>)</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <p class="hero-tag">ANDHRA-STYLE FLAVOURS, PACKED WITH CARE</p>
+    <h1>Homemade Pickles,<br>Made to Be Remembered.</h1>
+    <p>Authentic Indian flavours prepared with care and delivered to your doorstep.</p>
+  </div>
+</section>
+
+<section id="pickles" class="section">
+  <h2>Pickles for Every Meal</h2>
+  <p class="lead">Choose your favourite pickle,select the pack size and send your order directly to us on WhatsApp.</p>
+  <div class="grid" id="productGrid"></div>
+</section>
+
+<section id="story" class="section story">
+  <h2>Traditional Taste, Carefully Packed.</h2>
+  <p>NUNNA'S PICKLES brings the comfort of homemade Indian pickle to your table. We focus on bold spices, authentic flavours and careful packing.</p>
+  <p>From Andhra-style Avakaya to spicy Red Chilli Pickle and rich Prawns Pickle, our collection is created to complement everyday meals.</p>
+</section>
+
+<section id="how" class="section">
+  <h2>How to Order</h2>
+  <ol class="steps">
+    <li><b>01</b>Select your pickle</li>
+    <li><b>02</b>Select 250g, 500g or 1kg</li>
+    <li><b>03</b>Add quantity to your order</li>
+    <li><b>04</b>Send the order on WhatsApp</li>
+  </ol>
+</section>
+
+<section id="order" class="section order">
+  <h2>Your Order</h2>
+  <div id="cartItems"></div>
+  <p class="subtotal">Product Total: <b id="cartTotal">₹0</b></p>
+  <p class="note">Delivery charges and payment details are confirmed with you on WhatsApp.</p>
+  <label for="custName">Your name</label>
+  <input id="custName" type="text" autocomplete="name">
+  <label for="custLocation">Delivery location</label>
+  <input id="custLocation" type="text" autocomplete="address-level2" placeholder="Town / city and area">
+  <p class="error" id="orderError" role="alert"></p>
+  <button class="btn btn-wa" id="sendOrder">Send Order on WhatsApp</button>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Contact</h2>
+  <p><b>NUNNA'S PICKLES</b></p>
+  <p>Phone: <a href="tel:+919666338998">+91 9666338998</a></p>
+  <p>WhatsApp: <a href="https://wa.me/919666338998" target="_blank" rel="noopener">Order on WhatsApp</a></p>
+  <p>Email: <a href="mailto:mohannunna27@gmail.com">mohannunna27@gmail.com</a></p>
+</section>
+</main>
+
+<footer>
+  <div>
+    <b>NUNNA'S PICKLES</b>
+    <p>Authentic Homemade Pickles</p>
+  </div>
+  <div>
+    <b>Quick Links</b>
+    <a href="#home">Home</a> <a href="#pickles">Pickles</a> <a href="#story">Our Story</a> <a href="#contact">Contact</a>
+  </div>
+  <div>
+    <b>Contact</b>
+    <a href="tel:+919666338998">+91 96663 38998</a>
+    <a href="mailto:mohannunna27@gmail.com">mohannunna27@gmail.com</a>
+  </div>
+  <p class="copy">© 2026 NUNNA'S PICKLES. All rights reserved.</p>
+</footer>
+
+<a href="https://wa.me/919666338998" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+<script src="script.js"></script>
+</body>
+</html>
